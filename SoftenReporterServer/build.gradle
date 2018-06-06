@@ -24,7 +24,7 @@ repositories {
 }
 
 war {
-	archiveName 'soften-reporter-server-0.9.1.war'
+	archiveName 'soften-reporter-server-0.9.4.war'
 }
 
 configurations {
@@ -42,5 +42,5 @@ dependencies {
 	compile group: 'org.apache.poi', name: 'poi-ooxml-schemas', version: '3.16'
 	compile group: 'org.apache.xmlbeans', name: 'xmlbeans', version: '2.6.0'
 	
-	compile files('lib/soften-reporter-0.9.1.jar')
+	compile files('lib/soften-reporter-0.9.4.jar')
 }
